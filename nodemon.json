@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "watch": ["src/"],
+  "ext": ".ts, .js, .scss",
+  "ignore": ["dist", "node_modules/**/node_modules"],
+  "env": {
+    "TS_NODE_PROJECT": "tsconfig.json"
+  },
+  "exec": "concurrently --names \"SASS,SASS:WATCH,START:DEV\" -c \"bgBlue.bold,bgMagenta.bold,bgGreen.bold\" \"npm run sass\" \"npm run sass:watch\" \"npm run start:dev\""
+}
