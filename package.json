@@ -8,9 +8,9 @@
   },
   "scripts": {
     "serve": "nodemon",
-    "start:dev": "node --require ts-node/register --require tsconfig-paths/register --experimental-modules src/server.ts",
+    "start:dev": "node --require ts-node/register --require tsconfig-paths/register --experimental-modules src/server/main.ts",
     "tsc:watch": "tsc --watch",
-    "sass": "node-sass src/styles/sass/ --output dist/styles/css/ --indent-width 2 --output-style expanded --indent-type space --source-map true",
+    "sass": "node-sass src/styles/ --output dist/styles/ --indent-width 2 --output-style expanded --indent-type space --source-map true",
     "sass:watch": "yarn run sass -- --watch"
   },
   "dependencies": {
