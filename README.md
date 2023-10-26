@@ -39,6 +39,8 @@ It also has :fire:**hot-reload**:fire: on both client-side (Typescript & Scss fi
 
 ### Run app `yarn serve`
 
+If it meet your demands. Please leave a :star:GitHub Star:star: on this repo. Thank you :pray:
+
 ## Demo
 
 ![image](https://github.com/nguyenhmtriet/nodejs-typescript-sass/assets/24971905/018794e0-6493-4fda-9eab-d6599d0ec195)
