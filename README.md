@@ -6,7 +6,7 @@ This is a initial setup project that combining with NodeJS + Typescript + SASS.
 - Client-side uses HTML & script (Typescript) & SCSS files
 
 
-It also has :fire:**hot-reload**:fire: on both client-side (Typescript & Scss files) & backend-side
+It also has :fire:**hot-reload**:fire: on both client-side & backend-side
 
 ## Directory layout
 
