@@ -2,6 +2,10 @@
 
 This is a initial setup project that combining with NodeJS + Typescript + SASS.
 
+- Backend-side uses NodeJS + Typescript with Express to serve HTTP Requests
+- Client-side uses HTML & script (Typescript) & SCSS files
+
+
 It also has :fire:**hot-reload**:fire: on both client-side (Typescript & Scss files) & backend-side
 
 ## Directory layout
@@ -23,7 +27,7 @@ It also has :fire:**hot-reload**:fire: on both client-side (Typescript & Scss fi
     |   |   └── main.ts
     │   └── styles                     // Client-side styles source (scss)
     |       └── index.scss
-
+    |
     ├── .env
     ├── ...
     ├── index.html
