@@ -43,7 +43,7 @@ It also has :fire:**hot-reload**:fire: on both client-side & backend-side
 
 ### Run app `yarn serve`
 
-If it meet your demands. Please leave a :star:GitHub Star:star: on this repo. Thank you :pray:
+If it meets your demands. Please leave a :star:GitHub Star:star: on this repo. Thank you :pray:
 
 ## Demo
 
