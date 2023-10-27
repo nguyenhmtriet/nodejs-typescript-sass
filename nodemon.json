@@ -3,8 +3,5 @@
   "watch": ["src/"],
   "ext": ".ts, .js, .scss",
   "ignore": ["dist", "node_modules/**/node_modules"],
-  "env": {
-    "TS_NODE_PROJECT": "tsconfig.json"
-  },
-  "exec": "concurrently --names \"SASS,SASS:WATCH,TSC:WATCH,START:DEV\" -c \"bgBlue.bold,bgMagenta.bold,bgYellow.bold,bgGreen.bold\" \"yarn run sass\" \"yarn run sass:watch\" \"yarn run tsc:watch\" \"yarn run start:dev\""
+  "exec": "concurrently --names \"SASS:BUILD,NODE:WATCH,WEBACK:WATCH\" -c \"bgBlue.bold,bgYellow.bold,bgGreen.bold\" \"yarn run sass\" \"yarn run start:server\" \"yarn run start:client\""
 }
