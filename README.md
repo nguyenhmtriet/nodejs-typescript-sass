@@ -12,10 +12,9 @@ It also has :fire:**hot-reload**:fire: on both client-side & backend-side
 
     ./
     ├── dist                           // Output files
-    │   ├── src
-    |   |   └── client
-    |   |       ├── script.js
-    |   |       └── script.js.map
+    |   ├── client
+    |   |   ├── app.js
+    |   |   └── app.js.map
     |   └── styles
     |       ├── index.css
     |       └── index.css.map
@@ -34,7 +33,9 @@ It also has :fire:**hot-reload**:fire: on both client-side & backend-side
     ├── nodemon.json
     ├── package.json
     ├── README.md
-    ├── tsconfig.json
+    ├── tsconfig.client.json
+    ├── tsconfig.server.json
+    ├── webpack.config.client.js
     └── yarn.lock
 
 ## How to run
@@ -47,6 +48,16 @@ If it meets your demands. Please leave a :star:GitHub Star:star: on this repo. T
 
 ## Demo
 
+### Debugger on Dev-Tool browser with Typescript code
+![image](https://github.com/nguyenhmtriet/nodejs-typescript-sass/assets/24971905/82a4cf44-a587-4c25-b713-c2fc5394dbe6)
+
+### :fire:Hot Reload:fire: on every change in nested `./src`
+![image](https://github.com/nguyenhmtriet/nodejs-typescript-sass/assets/24971905/301482d1-0511-4cfc-b0df-007bd5261d98)
+
 ![image](https://github.com/nguyenhmtriet/nodejs-typescript-sass/assets/24971905/018794e0-6493-4fda-9eab-d6599d0ec195)
 
-![image](https://github.com/nguyenhmtriet/nodejs-typescript-sass/assets/24971905/5969283f-1709-4375-8f66-c2fdd3167bd2)
+
+### Debugger on Server-side as well with launch.json in Visual Studio Code
+![image](https://github.com/nguyenhmtriet/nodejs-typescript-sass/assets/24971905/a06a2459-47b5-4aaf-a99f-e90508d97e80)
+
+
